@@ -5,7 +5,7 @@
         <groupId>gov.nsa.datawave.microservice</groupId>
         <artifactId>datawave-microservice-parent</artifactId>
         <version>1.8</version>
-        <relativePath />
+        <relativePath/>
     </parent>
     <artifactId>common-utils</artifactId>
     <version>1.2-SNAPSHOT</version>
@@ -24,7 +24,7 @@
     </scm>
     <properties>
         <spotbugs.excludes.file>${project.basedir}/src/main/spotbugs/excludes.xml</spotbugs.excludes.file>
-        <version.guava>28.1-jre</version.guava>
+        <version.guava>32.0.0-jre</version.guava>
     </properties>
     <dependencyManagement>
         <dependencies>
